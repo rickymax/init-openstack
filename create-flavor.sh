@@ -5,7 +5,7 @@ openstack flavor create minimal --public --id 11 \
 
 openstack flavor create small-lowmem --public --id 13 \
     --vcpus 2 --ram 4096 --disk 30 &&
-penstack flavor create small --public --id 14 \
+openstack flavor create small --public --id 14 \
     --vcpus 2 --ram 8192 --disk 30 &&
 openstack flavor create small-highmem --public --id 15 \
     --vcpus 2 --ram 16384 --disk 30 &&
