@@ -17,6 +17,9 @@ openstack flavor create medium --public --id 17 \
 openstack flavor create medium-highmem --public --id 18 \
     --vcpus 4 --ram 32768 --disk 3 --ephemeral 64 &&
 
+openstack flavor create large --public --id 19 \
+    --vcpus 8 --ram 32768 --disk 3 --ephemeral 64 &&
+
 openstack flavor create small-50GB-ephemeral-disk --public --id 20 \
     --vcpus 2 --ram 8192 --disk 3 --ephemeral 50 &&
 openstack flavor create medium-highmem-100GB-ephemeral-disk --public --id 21 \
